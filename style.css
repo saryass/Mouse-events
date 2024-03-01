@@ -1,0 +1,20 @@
+#myBox {
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myButton {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#myButton:focus {
+    border:2px dashed red;  
+}
